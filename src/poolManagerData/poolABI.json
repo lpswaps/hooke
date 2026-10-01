@@ -1,0 +1,1671 @@
+[
+    {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "AssetNotAllowed"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "CurveExhausted"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "EmptyName"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "EmptySymbol"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "Expired"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "FailedDeployment"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "FeeRecipientRequired"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "HookGasLimitOutOfRange"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "HookRequiredForFee"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "balance",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "needed",
+                "type": "uint256"
+            }
+        ],
+        "type": "error",
+        "name": "InsufficientBalance"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "InsufficientBalanceForMigration"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "InsufficientLiquidity"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "InsufficientRealReserve"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "InvalidPath"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "InvalidTaxBps"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "InvalidTier"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "index",
+                "type": "uint256"
+            }
+        ],
+        "type": "error",
+        "name": "InvalidTierIndex"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "InvalidTokensSold"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "NoRouteFound"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "OnlyWETH"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "owner",
+                "type": "address"
+            }
+        ],
+        "type": "error",
+        "name": "OwnableInvalidOwner"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "account",
+                "type": "address"
+            }
+        ],
+        "type": "error",
+        "name": "OwnableUnauthorizedAccount"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "existingTotalSupply",
+                "type": "uint256"
+            }
+        ],
+        "type": "error",
+        "name": "PairAlreadyInitialized"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "existingTokenBalance",
+                "type": "uint256"
+            }
+        ],
+        "type": "error",
+        "name": "PairPoisonedWithToken"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "PermitFailed"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "PoolAlreadyExists"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "PoolMigrated"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "PoolNotFound"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "ReentrancyGuardReentrantCall"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            }
+        ],
+        "type": "error",
+        "name": "SafeERC20FailedOperation"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "SlippageExceeded"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address"
+            }
+        ],
+        "type": "error",
+        "name": "TiersAlreadyInitialized"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address"
+            }
+        ],
+        "type": "error",
+        "name": "TiersNotInitialized"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "TiersNotReady"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "TokenAddressMismatch"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "UnsupportedPairAsset"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "ZeroAddress"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "ZeroAmount"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "ZeroInput"
+    },
+    {
+        "inputs": [],
+        "type": "error",
+        "name": "ZeroLiquidityMinted"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint32",
+                "name": "oldLimit",
+                "type": "uint32",
+                "indexed": false
+            },
+            {
+                "internalType": "uint32",
+                "name": "newLimit",
+                "type": "uint32",
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "HookGasLimitUpdated",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "address",
+                "name": "pairAsset",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "address",
+                "name": "pair",
+                "type": "address",
+                "indexed": false
+            },
+            {
+                "internalType": "uint256",
+                "name": "tokenAmountUsed",
+                "type": "uint256",
+                "indexed": false
+            },
+            {
+                "internalType": "uint256",
+                "name": "quoteAmountUsed",
+                "type": "uint256",
+                "indexed": false
+            },
+            {
+                "internalType": "uint256",
+                "name": "liquidity",
+                "type": "uint256",
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "LiquidityMigrated",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "previousOwner",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "address",
+                "name": "newOwner",
+                "type": "address",
+                "indexed": true
+            }
+        ],
+        "type": "event",
+        "name": "OwnershipTransferred",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "feeRecipient",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "PlatformFeeAccrued",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "feeRecipient",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256",
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "PlatformFeeClaimed",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint16",
+                "name": "oldBps",
+                "type": "uint16",
+                "indexed": false
+            },
+            {
+                "internalType": "uint16",
+                "name": "newBps",
+                "type": "uint16",
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "PlatformFeeUpdated",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "uint256",
+                "name": "tokensSold",
+                "type": "uint256",
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "PoolGraduated",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "bool",
+                "name": "enabled",
+                "type": "bool",
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "RouteTokenUpdated",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address",
+                "indexed": false
+            },
+            {
+                "internalType": "address",
+                "name": "trader",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "bool",
+                "name": "isBuy",
+                "type": "bool",
+                "indexed": false
+            },
+            {
+                "internalType": "uint256",
+                "name": "amountIn",
+                "type": "uint256",
+                "indexed": false
+            },
+            {
+                "internalType": "uint256",
+                "name": "amountOut",
+                "type": "uint256",
+                "indexed": false
+            },
+            {
+                "internalType": "uint256",
+                "name": "feeAmount",
+                "type": "uint256",
+                "indexed": false
+            },
+            {
+                "internalType": "uint256",
+                "name": "priceBefore",
+                "type": "uint256",
+                "indexed": false
+            },
+            {
+                "internalType": "uint256",
+                "name": "priceAfter",
+                "type": "uint256",
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "Swap",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "uint256",
+                "name": "index",
+                "type": "uint256",
+                "indexed": true
+            },
+            {
+                "internalType": "struct CurveParams",
+                "name": "tier",
+                "type": "tuple",
+                "components": [
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualEthReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualTokenReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "curveSupply",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "migrationFee",
+                        "type": "uint256"
+                    }
+                ],
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "TierAdded",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "uint256",
+                "name": "index",
+                "type": "uint256",
+                "indexed": true
+            }
+        ],
+        "type": "event",
+        "name": "TierRemoved",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "uint256",
+                "name": "index",
+                "type": "uint256",
+                "indexed": true
+            },
+            {
+                "internalType": "struct CurveParams",
+                "name": "tier",
+                "type": "tuple",
+                "components": [
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualEthReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualTokenReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "curveSupply",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "migrationFee",
+                        "type": "uint256"
+                    }
+                ],
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "TierUpdated",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address",
+                "indexed": true
+            },
+            {
+                "internalType": "uint256",
+                "name": "count",
+                "type": "uint256",
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "TiersInitialized",
+        "anonymous": false
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address",
+                "indexed": false
+            },
+            {
+                "internalType": "address",
+                "name": "creator",
+                "type": "address",
+                "indexed": false
+            },
+            {
+                "internalType": "address",
+                "name": "curvePairAsset",
+                "type": "address",
+                "indexed": false
+            },
+            {
+                "internalType": "address",
+                "name": "hook",
+                "type": "address",
+                "indexed": false
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string",
+                "indexed": false
+            },
+            {
+                "internalType": "string",
+                "name": "symbol",
+                "type": "string",
+                "indexed": false
+            },
+            {
+                "internalType": "string",
+                "name": "uri",
+                "type": "string",
+                "indexed": false
+            },
+            {
+                "internalType": "uint8",
+                "name": "tier",
+                "type": "uint8",
+                "indexed": false
+            },
+            {
+                "internalType": "uint16",
+                "name": "maxBuyFeeBps",
+                "type": "uint16",
+                "indexed": false
+            },
+            {
+                "internalType": "uint16",
+                "name": "maxSellFeeBps",
+                "type": "uint16",
+                "indexed": false
+            },
+            {
+                "internalType": "address",
+                "name": "feeRecipient",
+                "type": "address",
+                "indexed": false
+            }
+        ],
+        "type": "event",
+        "name": "TokenCreated",
+        "anonymous": false
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "ABSOLUTE_MAX_TAX_BPS",
+        "outputs": [
+            {
+                "internalType": "uint16",
+                "name": "",
+                "type": "uint16"
+            }
+        ]
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "HOOK_GAS_LIMIT",
+        "outputs": [
+            {
+                "internalType": "uint32",
+                "name": "",
+                "type": "uint32"
+            }
+        ]
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "INIT_CODE_HASH",
+        "outputs": [
+            {
+                "internalType": "bytes32",
+                "name": "",
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "MAX_TOTALSUPPLY",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "PLATFORM_FEE_BPS",
+        "outputs": [
+            {
+                "internalType": "uint16",
+                "name": "",
+                "type": "uint16"
+            }
+        ]
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "ROUTE_SP_BPS",
+        "outputs": [
+            {
+                "internalType": "uint16",
+                "name": "",
+                "type": "uint16"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address"
+            },
+            {
+                "internalType": "struct CurveParams",
+                "name": "tier",
+                "type": "tuple",
+                "components": [
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualEthReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualTokenReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "curveSupply",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "migrationFee",
+                        "type": "uint256"
+                    }
+                ]
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "addTier"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "minTokensOut",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "deadline",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "payable",
+        "type": "function",
+        "name": "buy",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "claimPlatformFee",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "struct CreateTokenParams",
+                "name": "p",
+                "type": "tuple",
+                "components": [
+                    {
+                        "internalType": "string",
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "symbol",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "metadataURI",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "uint8",
+                        "name": "tier",
+                        "type": "uint8"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "hook",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "curvePairAsset",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint16",
+                        "name": "maxBuyFeeBps",
+                        "type": "uint16"
+                    },
+                    {
+                        "internalType": "uint16",
+                        "name": "maxSellFeeBps",
+                        "type": "uint16"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "feeRecipient",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bytes32",
+                        "name": "salt",
+                        "type": "bytes32"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "minTokensOut",
+                        "type": "uint256"
+                    }
+                ]
+            }
+        ],
+        "stateMutability": "payable",
+        "type": "function",
+        "name": "createToken",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "vault",
+                "type": "address"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "curve",
+        "outputs": [
+            {
+                "internalType": "struct PoolConfig",
+                "name": "pool",
+                "type": "tuple",
+                "components": [
+                    {
+                        "internalType": "uint8",
+                        "name": "tier",
+                        "type": "uint8"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "token",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "hook",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "vault",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint16",
+                        "name": "maxBuyFeeBps",
+                        "type": "uint16"
+                    },
+                    {
+                        "internalType": "uint16",
+                        "name": "maxSellFeeBps",
+                        "type": "uint16"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "tokensSold",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "curvePairAsset",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "curveSupply",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "quoteReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "migrated",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "exists",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "struct CurveParams",
+                        "name": "curveParams",
+                        "type": "tuple",
+                        "components": [
+                            {
+                                "internalType": "uint256",
+                                "name": "virtualEthReserve",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "virtualTokenReserve",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "curveSupply",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "migrationFee",
+                                "type": "uint256"
+                            }
+                        ]
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "feeRecipient",
+                        "type": "address"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "implementation",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_index",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "indexToken",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address"
+            },
+            {
+                "internalType": "struct CurveParams[]",
+                "name": "tiers",
+                "type": "tuple[]",
+                "components": [
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualEthReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualTokenReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "curveSupply",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "migrationFee",
+                        "type": "uint256"
+                    }
+                ]
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "initializeTiers"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "migrationPairAssetOf",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ]
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "owner",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "platformFeeBalance",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "platformTreasury",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "ethIn",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "quoteBuy",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "tokensOut",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "taxQuote",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "platformFeeEth",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "refundEth",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "willGraduate",
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "curvePairAsset",
+                "type": "address"
+            },
+            {
+                "internalType": "uint8",
+                "name": "tier",
+                "type": "uint8"
+            },
+            {
+                "internalType": "uint16",
+                "name": "buyFeeBps",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint256",
+                "name": "ethIn",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "quoteCreateAndBuy",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "tokensOut",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "taxQuote",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "platformFeeEth",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "refundEth",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "willGraduate",
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "tokensIn",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "quoteSell",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "ethOut",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "taxToken",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "platformFeeEth",
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "removeLastTier"
+    },
+    {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "renounceOwnership"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "tokenAmountIn",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "minQuoteOut",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "deadline",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "sell",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "tokenAmountIn",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "minQuoteOut",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "deadline",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint8",
+                "name": "v",
+                "type": "uint8"
+            },
+            {
+                "internalType": "bytes32",
+                "name": "r",
+                "type": "bytes32"
+            },
+            {
+                "internalType": "bytes32",
+                "name": "s",
+                "type": "bytes32"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "sellWithPermit",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint32",
+                "name": "newLimit",
+                "type": "uint32"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "setHookGasLimit"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            },
+            {
+                "internalType": "bool",
+                "name": "enabled",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "setRouteToken"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "asset",
+                "type": "address"
+            },
+            {
+                "internalType": "bool",
+                "name": "supported",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "setSupportedPairAsset"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "asset",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "sweepDust"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "index",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "tierAt",
+        "outputs": [
+            {
+                "internalType": "struct CurveParams",
+                "name": "",
+                "type": "tuple",
+                "components": [
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualEthReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualTokenReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "curveSupply",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "migrationFee",
+                        "type": "uint256"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "tierCount",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "tiersOf",
+        "outputs": [
+            {
+                "internalType": "struct CurveParams[]",
+                "name": "",
+                "type": "tuple[]",
+                "components": [
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualEthReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualTokenReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "curveSupply",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "migrationFee",
+                        "type": "uint256"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "tokenCount",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "newOwner",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "transferOwnership"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "quoteToken",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "index",
+                "type": "uint256"
+            },
+            {
+                "internalType": "struct CurveParams",
+                "name": "tier",
+                "type": "tuple",
+                "components": [
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualEthReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "virtualTokenReserve",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "curveSupply",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "migrationFee",
+                        "type": "uint256"
+                    }
+                ]
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "updateTier"
+    },
+    {
+        "inputs": [],
+        "stateMutability": "payable",
+        "type": "receive"
+    }
+]
